@@ -1,0 +1,10 @@
+.account-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.account-icon svg {
+    width: 100%;
+    height: 100%;
+}

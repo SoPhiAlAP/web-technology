@@ -1,0 +1,66 @@
+.course-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.course-header {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.course-title-section {
+    flex: 1;
+    padding: 40px 20px;
+    padding-left: 60px; /* Додати додатковий відступ зліва для переміщення тексту праворуч */
+    background-color: #ff6b6b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.course-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left; /* Вирівнювання заголовка зліва */
+    margin-left: 0; /* Додати відступ для заголовка */
+}
+
+.course-description {
+    font-size: 1.2rem;
+    color: black; /* Зробити текст чорним */
+    text-align: left; /* Вирівнювання тексту опису зліва */
+    max-width: 80%;
+    margin-left: 0; /* Додати відступ для опису */
+}
+
+.course-sections {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border-left: 5px solid #ff6b6b;
+}
+
+.course-section {
+    margin-bottom: 20px;
+    text-align: left; /* Вирівнювання тексту зліва */
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 1rem;
+    color: #666;
+}
